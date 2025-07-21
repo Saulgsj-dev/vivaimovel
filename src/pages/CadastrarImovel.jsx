@@ -5,7 +5,6 @@ import { db, storage } from "../services/firebase"
 import { addDoc, collection, doc, updateDoc, getDoc } from "firebase/firestore"
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage"
 import { v4 as uuid } from "uuid"
-import Footer from "../components/Footer"
 import ModalTermos from "../components/ModalTermos"
 
 export default function CadastrarImovel() {

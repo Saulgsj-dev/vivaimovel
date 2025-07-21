@@ -11,7 +11,6 @@ import {
 import { db } from "../services/firebase";
 import { UserContext } from "../contexts/UserContext";
 import ModalImagens from "../components/ModalImagens";
-import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
 export default function Home() {

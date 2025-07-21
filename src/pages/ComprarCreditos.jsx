@@ -3,7 +3,6 @@ import React, { useContext, useState, useEffect } from "react";
 import { UserContext } from "../contexts/UserContext";
 import { useNavigate, Link } from "react-router-dom";
 import api from "../services/api";
-import Footer from "../components/Footer";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -167,8 +166,6 @@ export default function ComprarCreditos() {
           )}
         </div>
       </div>
-
-      <Footer />
 
       {/* Container para os toasts */}
       <ToastContainer />

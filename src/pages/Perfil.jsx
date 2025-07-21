@@ -3,7 +3,6 @@ import { UserContext } from "../contexts/UserContext";
 import { useNavigate, Link } from "react-router-dom";
 import { doc, updateDoc, deleteDoc, collection, getDocs } from "firebase/firestore";
 import { db } from "../services/firebase"
-import Footer from "../components/Footer";
 import ModalEditarImovel from "../components/ModalEditarImovel";
 
 export default function Perfil() {
