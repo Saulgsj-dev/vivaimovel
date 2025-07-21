@@ -1,6 +1,5 @@
 // src/components/Footer.jsx
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import ModalTermos from "./ModalTermos";
 
 const Footer = () => {
